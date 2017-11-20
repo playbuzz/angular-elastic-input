@@ -73,7 +73,7 @@ angular.module('puElasticInput', []).directive('puElasticInput', ['$document', '
             attrs.$set('ngTrim', attrs.ngTrim === 'true' ? 'true' : 'false');
 
             // Initial value of mirror is null character what should trigger initial width update
-            var mirror = angular.element('<span style="white-space:pre;">&#000;</span>');
+            var mirror = angular.element('<span style="white-space:pre;display:inline-block;">&#000;</span>');
             setMirrorStyle(mirror, element, attrs);
 
             wrapper.append(mirror);
