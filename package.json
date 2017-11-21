@@ -1,8 +1,8 @@
 {
   "name": "angular-elastic-input",
   "description": "A directive for AngularJS which automatically resizes the width of input field according to the content, while typing.",
-  "version": "2.4.0",
-  "homepage": "https://github.com/jacek-pulit/angular-elastic-input",
+  "version": "2.4.1",
+  "homepage": "https://github.com/iddanh/angular-elastic-input",
   "keywords": [
     "elastic input",
     "autosize input",
@@ -10,12 +10,12 @@
   ],
   "license": "MIT",
   "author": {
-    "name": "Jacek Pulit",
-    "email": "jacek.pulit@gmail.com"
+    "name": "Iddan Halevy",
+    "email": "iddanh@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jacek-pulit/angular-elastic-input.git"
+    "url": "https://github.com/iddanh/angular-elastic-input.git"
   },
   "main": "dist/angular-elastic-input.js",
   "engines": {
